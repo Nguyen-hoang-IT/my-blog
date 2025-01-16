@@ -1,0 +1,106 @@
+/* Đặt kiểu chung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background: #333;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* Article */
+article {
+    flex: 3;
+    margin-right: 20px;
+}
+
+article h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+article .author {
+    color: #777;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+article .content p {
+    margin: 10px 0;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+aside h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+.photo {
+    width: 300px; /* Chiều rộng ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+    border-radius: 10px; /* Bo tròn góc ảnh */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
+    margin: 20px auto; /* Căn giữa và tạo khoảng cách */
+    display: block; /* Căn giữa khi dùng với margin auto */
+  }
+  
